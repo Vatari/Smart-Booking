@@ -13,6 +13,6 @@ async function start() {
   routesConfig(app);
 
   app.listen(PORT, () =>
-    console.log(`Server succsessfully started at port ${{ PORT }}`)
+    console.log(`Server succsessfully started at port ${PORT}`)
   );
 }
