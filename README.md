@@ -10,11 +10,11 @@ live demo:
 
 Local installation:
 
-Download zipped folder
-Open folder in terminal and run npm i
-Create .env file in root directory and set DB_USERNAME and DB_PASSWORD there as global ENV variables
-Install MongoDB locally and set address in /config/dbConfig.js
-Server is set to port 3000, but you can change it in /root folder/index.js
-Run "npm run local"
-Open browser at http://localhost:3000 or http://127.0.0.1:3000
-Enjoy :)
+1. Download zipped folder
+2. Open folder in terminal and run npm i
+3. Create .env file in root directory and set DB_USERNAME and DB_PASSWORD there as global ENV variables
+4. Install MongoDB locally and set address in /config/dbConfig.js
+5. Server is set to port 3000, but you can change it in /root folder/index.js
+6. Run "npm run local"
+7. Open browser at http://localhost:3000 or http://127.0.0.1:3000
+8. Enjoy :)
