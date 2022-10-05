@@ -19,3 +19,5 @@ Local installation:
 6. Run "npm run local"
 7. Open browser at http://localhost:3000 or http://127.0.0.1:3000
 8. Enjoy :)
+
+If you want to use MongoDB Atlas just change address in /config/dbConfig.js
