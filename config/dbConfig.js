@@ -6,7 +6,7 @@ require("../models/User");
 
 const dbName = "booking-uni";
 
-const dbUrl = `mongodb+srv://kain:isld2002%40447940@cluster0.qfalkak.mongodb.net/${dbName}`;
+const dbUrl = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.qfalkak.mongodb.net/${dbName}`;
 
 module.exports = async (app) => {
   try {
