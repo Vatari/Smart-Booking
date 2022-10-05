@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "Petar Zhelev",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "express": "^4.18.1",
