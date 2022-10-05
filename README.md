@@ -6,7 +6,7 @@ Supported functionality: login, register, logout, create, edit, search and delet
 
 package.json for client installs express, mongoose and express-handlebars, and some other libraries needed.
 
-live demo: 
+live demo: https://booking-uni.herokuapp.com/
 
 Local installation:
 
