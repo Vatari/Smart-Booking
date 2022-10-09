@@ -34,7 +34,6 @@ router.get("/details/:id", preload(true), isUser(), async (req, res) => {
       res.locals.item.isBooked = true;
     }
   }
-
   res.render("details", { title: "Details" });
 });
 
