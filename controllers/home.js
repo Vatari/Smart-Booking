@@ -21,8 +21,6 @@ router.get("/details", async (req, res) => {
 });
 
 router.get("/details/:id", preload(true), isUser(), async (req, res) => {
-  /*   res.locals.item.remainingPieces =
-    res.locals.item.pieces - res.locals.item.rentedUsers.length; */
   if (req.session.user) {
     res.locals.item.hasUser = true;
     res.locals.item.isOwner =
