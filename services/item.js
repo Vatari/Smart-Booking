@@ -17,10 +17,6 @@ async function getItemsByAuthor(userId) {
 
 async function getItemById(id) {
   return Item.findById(id).lean();
-
-  /*   
-    .populate("owner", "name")
-    .populate("rentedUsers", "username"); */
 }
 
 async function updateItem(id, item) {
