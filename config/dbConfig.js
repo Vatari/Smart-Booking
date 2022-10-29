@@ -10,7 +10,7 @@ module.exports = async (app) => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    
+
     console.log("Database connection established");
     mongoose.connection.on("error", (err) => {
       console.log("Database connection error");
@@ -21,4 +21,3 @@ module.exports = async (app) => {
     process.exit(1);
   }
 };
-
