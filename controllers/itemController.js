@@ -4,7 +4,6 @@ const preload = require("../middleware/preload");
 
 const {
   createItem,
-  getItemById,
   updateItem,
   deleteItem,
   book,

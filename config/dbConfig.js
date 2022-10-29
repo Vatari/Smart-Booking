@@ -1,12 +1,16 @@
 const mongoose = require("mongoose");
+//const ENV = require("dotenv");   
+//ENV.config({ path: "./.env" });
+
 require("../models/User");
 
 const dbName = "booking-uni";
-const connectionString = `mongodb://localhost:27017/${dbName}`;
+
+const dbUrl = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.qfalkak.mongodb.net/${dbName}`;
 
 module.exports = async (app) => {
   try {
-    await mongoose.connect(connectionString, {
+    await mongoose.connect(dbUrl, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
